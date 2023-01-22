@@ -1,0 +1,306 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #F1F3F6;
+}
+.flipkart-logo{
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    
+    
+}
+.flipkart-logo a{
+    text-decoration: none;
+    margin-top: -1;
+    color: #fff;
+   font-size: 15px;
+   font-style: italic;
+}
+.searchbar{
+    width: 60%;
+    display: flex;           
+    flex-direction: row;
+    margin-left: 10px;
+    
+}
+.searchbar input[type=text] {
+    background-color: #fff;
+    padding: 0 16px;
+    border-radius: 2px 0 0 0px;
+    border: 0;
+    outline: 0 none;
+    font-size: 14px;
+    height: 36px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 100%;
+}
+.search_button{
+    padding: 0 16px;
+    background-color: #fff;
+    border-radius: 0px 2px 2px 0px;
+    border: 0;
+    outline: 0 none;
+    font-size: 14px;
+    height: 36px;
+    cursor: pointer;
+}
+.login_button button{
+    color: #2874f0;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    border: 1px solid #dbdbdb;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu:hover{
+    cursor: pointer;
+}
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    vertical-align: middle;
+}
+#menu-arrow{
+    font-size: 15px;
+    color: #fff;
+}
+.cart a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+.second_header{
+    background-color: #fff;
+}
+.topoffer a{
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+}
+.topoffer a:hover{
+    color: #2874f0;
+}
+#top-offer-down-arrow{
+    font-size: 1px;
+}
+.nav-link:not([disabled]):not(.disabled).active,
+.nav-link:not([disabled]):not(.disabled):active,
+.nav-link:not([disabled]):not(.disabled).hover,
+.nav-link:not([disabled]):not(.disabled):hover{
+    color: #fff;
+}
+.dropdown-menu{
+    background-color: #fff;
+}
+.dropdown-item{
+    color: black !important;
+}
+.dropdown-item:not([disabled]):not(.disabled).active,
+.dropdown-item:not([disabled]):not(.disabled):active,
+.dropdown-item:not([disabled]):not(.disabled).hover,
+.dropdown-item:not([disabled]):not(.disabled):hover{
+    color: black;
+}
+.main-body{
+    width: 100% !important;
+}
+.wrapper{
+    overflow-x: scroll;
+}
+.wrapper::-webkit-scrollbar{
+    display: none;
+}
+/* .second_header .second_header_item{
+    overflow-x: scroll;
+}
+.second_header_item::-webkit-scrollbar{
+    display: none;
+} */
+.heading-deals-of-the-day {
+    background-color: #fff;
+}
+
+.heading_deals_the_day_stopwatch{
+    padding:15px 0px 15px 15px;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    vertical-align: center;
+    align-items: center;
+}
+#deals_of_the_day_stopwatch{
+    font-size: 15px;
+    color: #9e9d9d;
+}
+.heading_deals_of_the_day_viewbutton button{
+    border: none;
+    float: right;
+    border: 0px;
+    border-radius: 2px;
+    color: #fff;
+    background-color: #2874f0;
+    padding: 10px 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.big-billion{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 1.50px 0px;
+}
+.big-billion img{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 1.50px 0px;
+}
+.deals-item{
+    overflow: hidden;
+    background-color: #fff;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 1.50px 0px;
+}
+.left_scroll button{
+    padding: 40px 15px;
+    box-shadow: 1px 2px 10px -1px rgb(0 0 0 / 30%);
+    background-color: hsla(0,0%,100%,.98);
+    cursor: pointer;
+    border: none;    
+    opacity: 0.5;
+    z-index: 1;
+}
+.left_scroll:hover{
+    opacity: 1;
+    box-shadow: 1px 2px 10px -1px rgb(0 0 0 / 20%);
+}
+.deals_of_the_day_item_name{
+    width: 80%;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+.deals_of_the_day_item_discount{
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #388e3c;
+    padding-top: 8px;
+    text-align: center;
+}
+.deals_disclaimer{
+    opacity: .6;
+    padding-top: 7px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+.head-music{
+    background-color: #fff;
+}
+.book-music-heading-first{
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.book-music-heading-shop-now{
+    opacity: .6;
+    font-size: small;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.book-music-view-all-button{
+    padding:10px 15px 15px 15px;
+}
+
+.book-music-view-all-button button{
+    border: 0px;
+    border-radius: 2px;
+    color: #fff;
+    background-color: #2874f0;
+    padding: 10px 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.book-musical-instrument-items{
+    background-color: #fff;
+    width: 100%;
+    display: flex;           
+    flex-direction: row;  
+    overflow: hidden;
+    align-items: center; 
+    margin-top: 0.15rem;
+    padding-bottom: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 1.50px 0px;
+}
+.right_scroll{
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+.right_scroll button{
+    padding: 40px 15px;
+    box-shadow: 1px 2px 10px -1px rgb(0 0 0 / 30%);
+    background-color: hsla(0,0%,100%,.98);
+    cursor: pointer;
+    border: none;    
+    opacity: 0.5;
+}
+.right_scroll:hover{
+    opacity: 0.8;
+    box-shadow: 1px 2px 10px -1px rgb(0 0 0 / 20%);
+    background-color: #fff;
+}
+.music-item{
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+@media screen and (max-width: 600px) {
+      .big-billion{
+            display: none;
+      }
+      .searchbar{
+        width: 100%;
+        margin-left: 0px;
+      }
+      .main-body{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+      }
+      .heading_deals_the_day_stopwatch{
+        font-size: medium;
+        padding:15px 0px 15px 7px;
+      }
+      .book-music-view-all-button {
+        padding: 10px 10px 15px 7px;
+    } 
+  }
+  @media screen and (max-width: 340px) {
+    .big-billion{
+          display: none;
+    }
+    .main-body{
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
+    .heading_deals_the_day_stopwatch{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        font-size: medium;
+        padding:15px 7px 15px 15px;
+    } 
+}
