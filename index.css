@@ -81,20 +81,24 @@ body{
 .second_header{
     background-color: #fff;
 }
+.down-arrow{
+    font-size: 13px;
+    color: rgb(83, 83, 83);
+    font-weight: bold;
+    cursor: pointer;
+}
 .topoffer a{
     text-decoration: none;
     color: rgb(83, 83, 83);
     font-weight: bold;
     cursor: pointer;
     text-align: center;
-    font-size: 14px;
+    font-size: 18px;
 }
-.topoffer a:hover{
+.second_navbar_item_label:hover{
     color: #2874f0;
 }
-#top-offer-down-arrow{
-    font-size: 1px;
-}
+
 .nav-link:not([disabled]):not(.disabled).active,
 .nav-link:not([disabled]):not(.disabled):active,
 .nav-link:not([disabled]):not(.disabled).hover,
@@ -304,3 +308,5 @@ body{
         padding:15px 7px 15px 15px;
     } 
 }
+
+
